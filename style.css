@@ -1,0 +1,4920 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Fasthand&family=Gasoek+One&family=Josefin+Sans&family=Oswald:wght@700&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Fasthand&family=Gasoek+One&family=Josefin+Sans&family=Oswald:wght@700&family=Rubik+Dirt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: built;
+    src: url("fonte/built\ titling\ sb\ it.otf");
+}
+
+.nav-1 {
+    width: 40vw;
+    background-color: black;
+    height: 8vh;
+    position: fixed;
+    z-index: 10;
+
+
+}
+
+.nav-1 ul {
+    display: flex;
+    width: 40vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-1 ul img {
+    width: 2vw;
+    cursor: pointer;
+    /* animation-name: slide-from-left;
+    animation-duration: 4s; */
+
+}
+
+#iconMenuAberto {
+    display: none;
+}
+
+.nav-1 ul li {
+
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-1 ul li:hover {
+    border-top: 3px solid #7fff00;
+    transition: 0.1s;
+    color: chartreuse;
+
+}
+
+.nav-1 ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Rubik Dirt', cursive; */
+
+
+}
+
+.nav-1 ul li a:hover {
+
+    color: chartreuse;
+}
+
+/* NAV 2 */
+#nav-2 {
+    border: 1px solid rgb(11, 240, 209);
+    width: 40vw;
+    height: 60vh;
+    background-color: black;
+    display: none;
+}
+
+#nav-2 ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+
+
+}
+
+.ul-escondido {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#nav-2 ul li {
+
+    width: 100%;
+}
+
+#nav-2 ul li:hover {
+    background-color: #7fff00;
+    border-top: none;
+    cursor: pointer;
+
+}
+
+#nav-2 ul li a {
+    font-size: 2vw;
+}
+
+#nav-2 ul li a:hover {
+    color: #000;
+    cursor: pointer;
+
+}
+
+/* mdia screm nav 760px */
+@media screen and (max-width:760px) {
+    .nav-1 {
+        width: 50vw;
+        background-color: black;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+    
+    
+    }
+    
+    .nav-1 ul {
+        display: flex;
+        width: 50vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .nav-1 ul img {
+        width: 3vw;
+        cursor: pointer;
+        /* animation-name: slide-from-left;
+        animation-duration: 4s; */
+    
+    }
+    
+    #iconMenuAberto {
+        display: none;
+    }
+    
+    .nav-1 ul li {
+    
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-1 ul li:hover {
+        border-top: 3px solid #7fff00;
+        transition: 0.1s;
+        color: chartreuse;
+    
+    }
+    
+    .nav-1 ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Rubik Dirt', cursive; */
+    
+    
+    }
+    
+    .nav-1 ul li a:hover {
+    
+        color: chartreuse;
+    }
+    
+    /* NAV 2 */
+    #nav-2 {
+        border: 1px solid rgb(11, 240, 209);
+        width: 50vw;
+        height: 60vh;
+        background-color: black;
+        display: none;
+    }
+    
+    #nav-2 ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    
+    
+    }
+    
+    .ul-escondido {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    #nav-2 ul li {
+    
+        width: 100%;
+    }
+    
+    #nav-2 ul li:hover {
+        background-color: #7fff00;
+        border-top: none;
+        cursor: pointer;
+    
+    }
+    
+    #nav-2 ul li a {
+        font-size: 2vw;
+    }
+    
+    #nav-2 ul li a:hover {
+        color: #000;
+        cursor: pointer;
+    
+    }
+}
+/* mdia screm nav 590px */
+@media screen and (max-width:590px) {
+    .nav-1 {
+        width: 100vw;
+        background-color: black;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+    
+    
+    }
+    
+    .nav-1 ul {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .nav-1 ul img {
+        width: 6vw;
+        cursor: pointer;
+        /* animation-name: slide-from-left;
+        animation-duration: 4s; */
+    
+    }
+    
+    #iconMenuAberto {
+        display: none;
+    }
+    
+    .nav-1 ul li {
+    
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-1 ul li:hover {
+        border-top: 3px solid #7fff00;
+        transition: 0.1s;
+        color: chartreuse;
+    
+    }
+    
+    .nav-1 ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Rubik Dirt', cursive; */
+    
+    
+    }
+    
+    .nav-1 ul li a:hover {
+    
+        color: chartreuse;
+    }
+    
+    /* NAV 2 */
+    #nav-2 {
+        border: 1px solid rgb(11, 240, 209);
+        width: 50vw;
+        height: 60vh;
+        background-color: black;
+        display: none;
+    }
+    
+    #nav-2 ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    
+    
+    }
+    
+    .ul-escondido {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    #nav-2 ul li {
+    
+        width: 100%;
+    }
+    
+    #nav-2 ul li:hover {
+        background-color: #7fff00;
+        border-top: none;
+        cursor: pointer;
+    
+    }
+    
+    #nav-2 ul li a {
+        font-size: 2vw;
+    }
+    
+    #nav-2 ul li a:hover {
+        color: #000;
+        cursor: pointer;
+    
+    }
+}
+/* mdia screm nav 500px */
+@media screen and (max-width:500px) {
+    .nav-1 {
+        width: 100vw;
+        background-color: black;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+    
+    
+    }
+    
+    .nav-1 ul {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .nav-1 ul img {
+        width: 6vw;
+        cursor: pointer;
+        /* animation-name: slide-from-left;
+        animation-duration: 4s; */
+    
+    }
+    
+    #iconMenuAberto {
+        display: none;
+    }
+    
+    .nav-1 ul li {
+    
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-1 ul li:hover {
+        border-top: 3px solid #7fff00;
+        transition: 0.1s;
+        color: chartreuse;
+    
+    }
+    
+    .nav-1 ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Rubik Dirt', cursive; */
+    
+    
+    }
+    
+    .nav-1 ul li a:hover {
+    
+        color: chartreuse;
+    }
+    
+    /* NAV 2 */
+    #nav-2 {
+        border: 1px solid rgb(11, 240, 209);
+        width: 50vw;
+        height: 60vh;
+        background-color: black;
+        display: none;
+    }
+    
+    #nav-2 ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    
+    
+    }
+    
+    .ul-escondido {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    #nav-2 ul li {
+    
+        width: 100%;
+    }
+    
+    #nav-2 ul li:hover {
+        background-color: #7fff00;
+        border-top: none;
+        cursor: pointer;
+    
+    }
+    
+    #nav-2 ul li a {
+        font-size: 2vw;
+    }
+    
+    #nav-2 ul li a:hover {
+        color: #000;
+        cursor: pointer;
+    
+    }
+}
+/* mdia screm nav450px */
+@media screen and (max-width:450px) {
+    .nav-1 {
+        width: 100vw;
+        background-color: black;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+    
+    
+    }
+    
+    .nav-1 ul {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .nav-1 ul img {
+        width: 6vw;
+        cursor: pointer;
+        /* animation-name: slide-from-left;
+        animation-duration: 4s; */
+    
+    }
+    
+    #iconMenuAberto {
+        display: none;
+    }
+    
+    .nav-1 ul li {
+    
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-1 ul li:hover {
+        border-top: 3px solid #7fff00;
+        transition: 0.1s;
+        color: chartreuse;
+    
+    }
+    
+    .nav-1 ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Rubik Dirt', cursive; */
+    
+    
+    }
+    
+    .nav-1 ul li a:hover {
+    
+        color: chartreuse;
+    }
+    
+    /* NAV 2 */
+    #nav-2 {
+        border: 1px solid rgb(11, 240, 209);
+        width: 50vw;
+        height: 60vh;
+        background-color: black;
+        display: none;
+    }
+    
+    #nav-2 ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    
+    
+    }
+    
+    .ul-escondido {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    #nav-2 ul li {
+    
+        width: 100%;
+    }
+    
+    #nav-2 ul li:hover {
+        background-color: #7fff00;
+        border-top: none;
+        cursor: pointer;
+    
+    }
+    
+    #nav-2 ul li a {
+        font-size: 2vw;
+    }
+    
+    #nav-2 ul li a:hover {
+        color: #000;
+        cursor: pointer;
+    
+    }
+}
+/* mdia screm nav 400px */
+@media screen and (max-width:400px) {
+    .nav-1 {
+        width: 100vw;
+        background-color: black;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+    
+    
+    }
+    
+    .nav-1 ul {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .nav-1 ul img {
+        width: 6vw;
+        cursor: pointer;
+        /* animation-name: slide-from-left;
+        animation-duration: 4s; */
+    
+    }
+    
+    #iconMenuAberto {
+        display: none;
+    }
+    
+    .nav-1 ul li {
+    
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-1 ul li:hover {
+        border-top: 3px solid #7fff00;
+        transition: 0.1s;
+        color: chartreuse;
+    
+    }
+    
+    .nav-1 ul li a {
+        color: white;
+        font-size: 4vw;
+        text-decoration: none;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Rubik Dirt', cursive; */
+    
+    
+    }
+    
+    .nav-1 ul li a:hover {
+    
+        color: chartreuse;
+    }
+    
+    /* NAV 2 */
+    #nav-2 {
+       
+        width: 100vw;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.911);
+        display: none;
+    }
+    
+    #nav-2 ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    
+    
+    }
+    
+    .ul-escondido {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    #nav-2 ul li {
+    
+        width: 100%;
+    }
+    
+    #nav-2 ul li:hover {
+        background-color: #7fff00;
+        border-top: none;
+        cursor: pointer;
+    
+    }
+    
+    #nav-2 ul li a {
+        font-size: 4vw;
+    }
+    
+    #nav-2 ul li a:hover {
+        color: #000;
+        cursor: pointer;
+    
+    }
+}
+
+
+@keyframes slide-from-left {
+    from {
+        transform: translateY(-10%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* section-1 */
+#section-1 {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("img/bk.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.content {
+
+    width: 40%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.content-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10vh;
+}
+
+.content h1 {
+    color: #7fff00;
+    font-size: 6.5vw;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -4vh;
+}
+
+.content h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 2.4vw;
+    margin-bottom: 2vh;
+
+}
+
+.content p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+
+.content-button {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.content-button button {
+    width: 14vw;
+    border: 2px solid #7fff00;
+    border-radius: 10px 0px 10px 0px;
+    background-color: inherit;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.content-button button:hover {
+    background-color: #7fff00;
+    color: #000;
+    box-shadow: 1px 1px 1rem white;
+}
+
+.content-button p {
+    color: #7fff00;
+}
+
+.content-icon {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+.content-icon img {
+    transition: 0.5s ease-in-out;
+    width: 3vw;
+    cursor: pointer;
+}
+
+
+
+/* ___________ */
+.img-bk {
+
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* section-1  MIDIA SCREEM 940PX*/
+@media screen and (max-width:940px) {
+    
+#section-1 {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("img/bk.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.content {
+
+    width: 40%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+   
+    
+}
+
+.content-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 50%;
+    margin-bottom: 4vh;
+  
+}
+
+.content h1 {
+    color: #7fff00;
+    font-size: 8vw;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 3vh;
+}
+
+.content h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 3vw;
+    margin-bottom: 4vh;
+    margin-top: -5vh;
+
+}
+
+.content p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+
+.content-button {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.content-button button {
+    width: 20vw;
+    border: 2px solid #7fff00;
+    border-radius: 10px 0px 10px 0px;
+    background-color: inherit;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.content-button button:hover {
+    background-color: #7fff00;
+    color: #000;
+    box-shadow: 1px 1px 1rem white;
+}
+
+.content-button p {
+    color: #7fff00;
+}
+
+.content-icon {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+.content-icon img {
+    transition: 0.5s ease-in-out;
+    width: 5vw;
+    cursor: pointer;
+}
+
+
+
+/* ___________ */
+.img-bk {
+
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+/* section-1  MIDIA SCREEM 590PX*/
+@media screen and (max-width:590px) {
+    
+    #section-1 {
+    
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(36, 33, 33);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url("img/bk.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+    }
+    
+    .content {
+    
+        width: 60%;
+        height: 100vh;
+        background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+       
+        
+    }
+    
+    .content-text {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: 50%;
+        margin-bottom: 4vh;
+      
+    }
+    
+    .content h1 {
+        color: #7fff00;
+        font-size: 10vw;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 4vh;
+    }
+    
+    .content h3 {
+        color: white;
+        font-weight: 900;
+        font-size: 5vw;
+        margin-bottom: 4vh;
+        margin-top: -5vh;
+    
+    }
+    
+    .content p {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
+        font-size: 2.5vw;
+    }
+    
+    
+    .content-button {
+        width: 70%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3vh;
+    }
+    
+    .content-button button {
+        width: 30vw;
+        padding: 0.4rem;
+        border: 2px solid #7fff00;
+        border-radius: 10px 0px 10px 0px;
+        background-color: inherit;
+        color: white;
+        font-size: 2.5vw;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .content-button button:hover {
+        background-color: #7fff00;
+        color: #000;
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    .content-button p {
+        color: #7fff00;
+    }
+    
+    .content-icon {
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 45%;
+    
+    }
+    
+    .content-icon img {
+        transition: 0.5s ease-in-out;
+        width: 6vw;
+        cursor: pointer;
+    }
+    
+    
+    
+    /* ___________ */
+    .img-bk {
+    
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+
+
+
+/* section-2 */
+
+.section-2 {
+    width: 100vw;
+    height: 120vh;
+    background-image: url("img/Like\ &\ Subscribe.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+
+
+
+
+
+}
+
+.video-bk {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    mix-blend-mode: lighten;
+    width: 100vw;
+
+    height: 120vh;
+
+}
+
+.video-bk video {
+    width: 100vw;
+
+    height: 100vh;
+
+}
+
+/* planos */
+.planos-opcao{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+   
+}
+.planos {
+    
+    width: 25vw;
+    height: 80%;
+    margin-left: 0.5vw;
+    background-color: #171717ec;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    box-shadow: 1px 1px 1rem black;
+    
+    
+}
+.planos video{
+    width: 100%;
+   height: 100%;
+}
+.planos button{
+   width: 15vw;
+   font-size: 1.4vw;
+   padding: 0.7rem;
+   border-radius: 5px;
+   color: #000;
+   border: none;
+   position: absolute;
+   background-color: #7fff00;
+   font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.planos button:hover{
+    box-shadow: 2px 2px 2rem #7fff00;
+}
+.planos .plano-black{
+    background-color: red;
+    color: white;
+}
+.planos .plano-black:hover{
+    box-shadow: 1px 1px 2rem red;
+    
+}
+
+
+/* section-2  nidia scrimm 900px*/
+@media screen and (max-width:900px) {
+    
+
+    .section-2 {
+        width: 100vw;
+        height: 120vh;
+        background-image: url("img/Like\ &\ Subscribe.png");
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+       
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    /* planos */
+    .planos-opcao{
+        display: flex;
+        width: 75%;
+      
+       
+       
+        justify-content: space-between;
+       align-items: center;
+    }
+    .planos-opcao .planos {
+        background-color: inherit;
+        width: 40%;
+        margin-left: 0.5vw;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+       
+        
+        
+    }
+    .planos video{
+        width: 100%;
+       height: 100%;
+    }
+    .planos button{
+       width: 15vw;
+       font-size: 1.4vw;
+       padding: 0.7rem;
+       border-radius: 5px;
+       color: #000;
+       border: none;
+       position: absolute;
+       background-color: #7fff00;
+       font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+    }
+    .planos button:hover{
+        box-shadow: 2px 2px 2rem #7fff00;
+    }
+    .planos .plano-black{
+        background-color: red;
+        color: white;
+    }
+    .planos .plano-black:hover{
+        box-shadow: 1px 1px 2rem red;
+        
+    }
+    }
+    
+
+
+/* section-2  nidia scrimm 760px*/
+@media screen and (max-width:760px) {
+    
+
+.section-2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/Like\ &\ Subscribe.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+
+
+
+
+
+}
+
+
+
+/* planos */
+.planos-opcao{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+   align-items: center;
+}
+.planos-opcao .planos {
+
+    width: 40%;
+    margin-left: 0.5vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+   
+    
+    
+}
+.planos video{
+    width: 100%;
+   height: 100%;
+}
+.planos button{
+   width: 15vw;
+   font-size: 1.4vw;
+   padding: 0.7rem;
+   border-radius: 5px;
+   color: #000;
+   border: none;
+   position: absolute;
+   background-color: #7fff00;
+   font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.planos button:hover{
+    box-shadow: 2px 2px 2rem #7fff00;
+}
+.planos .plano-black{
+    background-color: red;
+    color: white;
+}
+.planos .plano-black:hover{
+    box-shadow: 1px 1px 2rem red;
+    
+}
+}
+
+
+
+/* section-2  MIDIA SCREEM 940PX*/
+/* smoke */
+@media screen and (max-width:930px) {
+    .video-bk {
+       
+        width: 100%;
+        height: 120vh;
+      
+   
+    
+    }
+    .video-bk video{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -1vh;
+    }
+}
+@media screen and (max-width:906px) {
+    .video-bk {
+       
+        width: 100%;
+        height: 120vh;
+      
+   
+    
+    }
+    .video-bk video{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -4vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .video-bk {
+       
+        width: 100%;
+        height: 100vh;
+        
+      
+   
+    
+    }
+    #video-bk{
+   display: none;
+   
+    }
+}
+
+
+
+
+/* section-2  MIDIA SCREEM 860PX*/
+@media screen and (max-width:860px) {
+    
+
+.section-2 {
+    width: 100vw;
+    height: 120vh;
+    background-image: url("img/Like\ &\ Subscribe.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+
+
+
+}
+
+.video-bk {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    mix-blend-mode: lighten;
+    width: 100vw;
+   margin-bottom: -10vh;
+    height: 120vh;
+   
+
+}
+
+.video-bk video {
+    width: 100vw;
+
+    height: 100vh;
+
+}
+
+/* planos */
+.planos-opcao{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+   
+}
+.planos {
+    
+    width: 25vw;
+    height: 80%;
+    margin-left: 0.5vw;
+    background-color: #171717ec;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    box-shadow: 1px 1px 1rem black;
+    
+    
+}
+.planos video{
+    width: 100%;
+   height: 100%;
+}
+.planos button{
+   width: 15vw;
+   font-size: 1.4vw;
+   padding: 0.7rem;
+   border-radius: 5px;
+   color: #000;
+   border: none;
+   position: absolute;
+   background-color: #7fff00;
+   font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.planos button:hover{
+    box-shadow: 2px 2px 2rem #7fff00;
+}
+.planos .plano-black{
+    background-color: red;
+    color: white;
+}
+.planos .plano-black:hover{
+    box-shadow: 1px 1px 2rem red;
+}
+}
+
+/* section-2  MIDIA SCREEM 590PX*/
+@media screen and (max-width:590px) {
+    
+
+    .section-2 {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("img/Like\ &\ Subscribe.png");
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    /* planos */
+    .planos-opcao{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+       
+    }
+    .planos {
+        
+        width: 25vw;
+        height: 80%;
+        margin-left: 0.5vw;
+        background-color: #171717ec;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        box-shadow: 1px 1px 1rem black;
+        
+        
+    }
+    .planos video{
+        width: 100%;
+       height: 100%;
+    }
+    .planos button{
+       width: 15vw;
+       font-size: 1.4vw;
+       padding: 0.7rem;
+       border-radius: 5px;
+       color: #000;
+       border: none;
+       position: absolute;
+       background-color: #7fff00;
+       font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+    }
+    .planos button:hover{
+        box-shadow: 2px 2px 2rem #7fff00;
+    }
+    .planos .plano-black{
+        background-color: red;
+        color: white;
+    }
+    .planos .plano-black:hover{
+        box-shadow: 1px 1px 2rem red;
+    }
+    }
+
+    /* section-2  MIDIA SCREEM 400PX*/
+@media screen and (max-width:400px) {
+    
+
+    .section-2 {
+        width: 100vw;
+        height: 200vh;
+        background-image: url("img/Like\ &\ Subscribe.png");
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+ 
+    }
+    
+   
+    /* planos */
+    .planos-opcao{
+        display: flex;
+        width: 95vw;
+        height: 100%;
+        flex-direction: column;
+        justify-content:center;
+       
+       
+    }
+    .planos {
+        
+       
+       background-color: inherit;
+        
+       
+        
+       
+        
+        
+    }
+    .planos video{
+        width: 70vw;
+       height: 100%;
+    }
+    .planos button{
+       width: 15vw;
+       font-size: 1.4vw;
+       padding: 0.7rem;
+       border-radius: 5px;
+       color: #000;
+       border: none;
+       position: absolute;
+       background-color: #7fff00;
+       font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+    }
+    .planos button:hover{
+        box-shadow: 2px 2px 2rem #7fff00;
+    }
+    .planos .plano-black{
+        background-color: red;
+        color: white;
+    }
+    .planos .plano-black:hover{
+        box-shadow: 1px 1px 2rem red;
+    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section-3 */
+
+.section-3 {
+    width: 100vw;
+    height: 300vh;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1 {
+    width: 90%;
+    /* height: 150vh; */
+    height: 290vh;
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+/* .opcao-links */
+.opcao-links {
+
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.opcao-links div {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+
+
+
+    padding: 2rem;
+    gap: 1.2vh;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3vw;
+
+}
+
+.opcao-links div a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.opcao-links div a:hover {
+    color: aqua;
+
+    background: #171717;
+
+}
+
+/* modalidades */
+.modalidades {
+    background-color: #171717;
+    box-shadow: 1px 1px 1rem black;
+    position: relative;
+}
+
+.opcao-links .modalidades a {
+    color: white;
+}
+
+.opcao-links .modalidades a:hover {
+    color: #171717;
+    background-color: aqua;
+}
+
+.modalidades button {
+    background-color: #7fff00;
+    border: none;
+    position: absolute;
+    margin-left: -5vw;
+    height: 100vh;
+    width: 1vw;
+    cursor: pointer;
+
+
+}
+
+/* video-academia */
+
+.video-academia {
+    border: 1px solid white;
+    position: absolute;
+    width: 90vw;
+    height: 100vh;
+    z-index: 1;
+    margin-top: -73vh;
+    background-color: #171717f3;
+    border-radius: 5px;
+    margin-left: -1vw;
+    display: none;
+    animation-name: slide-from-left;
+    animation-duration: 0.5s;
+
+
+
+}
+
+.video-academia button {
+    width: 8vw;
+    height: 5vh;
+    font-weight: bolder;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.video-academia button:hover {
+    box-shadow: 1px 1px 1rem white;
+}
+
+@keyframes slide-from-left {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* anuncios */
+.opcao-links .anuncios {
+    background-color: #171717;
+
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.anuncios iframe {
+    width: 90%;
+    height: 50%;
+}
+
+
+
+/* content-links */
+.content-links {
+    box-shadow: 1px 1px 1rem black;
+    border-radius: 5px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.sobre {
+    width: 90%;
+
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 1rem;
+
+
+
+
+}
+
+.sobre h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+
+.sobre p {
+    color: white;
+    font-size: 2.6vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* linha-sobre */
+.linha-sobre {
+    margin-top: 1vh;
+    border: 1px solid #7fff00;
+}
+
+/* sobre-icon */
+.sobre-icon {
+    width: 100%;
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+
+}
+
+.sobre-icon img {
+    width: 2vw;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+
+/* unidades */
+.unidades {
+    width: 90%;
+    padding: 1rem;
+    height: 37%;
+    overflow-x: scroll;
+    position: relative;
+
+
+}
+
+.unidades h1 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2vw;
+
+
+
+
+}
+
+.unidades .cards {
+    display: flex;
+    width: 140%;
+    height: 90%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.4rem;
+
+}
+
+.unidades .card {
+
+    width: 40%;
+    background-color: #000;
+    height: 90%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+
+.unidades .card:hover {
+    box-shadow: 1px 1px 1rem white;
+}
+
+.unidades .card p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.3vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.unidades .card button {
+    width: 90%;
+    margin-top: 5vh;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    background-color: #7fff00;
+    color: #171717;
+    transition: 0.4s ease-in-out;
+}
+
+.unidades .cards button:hover {
+    box-shadow: 1px 1px 1rem #7fff00;
+    color: #000;
+}
+
+.unidades .card img {
+    width: 110%;
+    height: 40%;
+    margin-bottom: 10vh;
+
+
+}
+
+/* clubeVantagem */
+
+.clubeVantagem {
+
+    width: 90%;
+    height: 30%;
+}
+
+.clubeVantagem h1 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+
+.clubeVantagem div {
+
+    height: 90%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.clubeVantagem div p {
+    font-size: 1.4vw;
+    color: white;
+
+
+}
+
+.clubeVantagem div img {
+    width: 40vw;
+    mix-blend-mode: lighten;
+}
+
+
+
+
+/* experimente */
+
+.experimente {
+    width: 90%;
+    height: 30%;
+}
+
+.experimente h1 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+
+.experimente h2 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    color: #fcf803;
+
+}
+
+.experimente p {
+    color: white;
+    font-size: 1.2vw;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
+
+.button-experimente {
+
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: space-around;
+
+
+
+}
+
+.button-experimente button {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+    gap: 0.5rem;
+    font-size: 1.2vw;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    transition: 0.6s ease-in-out;
+    font-weight: bolder;
+}
+
+.button-experimente button:hover {
+    box-shadow: 1px 1px 1rem white;
+    background-color: #fcf803;
+    color: #000;
+}
+
+
+/* unidades-device display none */
+@media screen and (min-width:400px) {
+    .unidades-device{
+        display: none;
+    }
+}
+
+  /* section-3  midia scremm 760px*/
+@media screen and (max-width:760px) {
+  
+    
+
+.section-3 {
+    width: 100vw;
+    height: 300vh;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1 {
+    width: 90%;
+    /* height: 150vh; */
+    height: 290vh;
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+/* .opcao-links */
+.opcao-links {
+
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+
+
+}
+
+.opcao-links div {
+    display: flex;
+
+    
+    flex-direction: column;
+    width: 100%;
+    height: 24%;
+    gap: 1.2vh;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+   
+
+}
+
+.opcao-links div a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 1.9vw;
+}
+
+.opcao-links div a:hover {
+    color: aqua;
+
+    background: #171717;
+
+}
+
+/* modalidades */
+.modalidades {
+    background-color: #171717;
+    box-shadow: 1px 1px 1rem black;
+    position: relative;
+}
+
+.opcao-links .modalidades a {
+    color: white;
+}
+
+.opcao-links .modalidades a:hover {
+    color: #171717;
+    background-color: aqua;
+}
+
+.modalidades button {
+    background-color: #7fff00;
+    border: none;
+    position: absolute;
+    margin-left: -7vw;
+    height: 100vh;
+    width: 2vw;
+    cursor: pointer;
+
+
+}
+
+/* video-academia */
+
+.video-academia {
+    border: 1px solid white;
+    position: absolute;
+    width: 90vw;
+    height: 80vh;
+    z-index: 1;
+    margin-top: -73vh;
+    background-color: #171717f3;
+    border-radius: 5px;
+    margin-left: -1vw;
+    display: none;
+    animation-name: slide-from-left;
+    animation-duration: 0.5s;
+
+
+
+}
+
+.video-academia button {
+    width: 10vw;
+    height: 5vh;
+    font-weight: bolder;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.video-academia button:hover {
+    box-shadow: 1px 1px 1rem white;
+}
+
+@keyframes slide-from-left {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* anuncios */
+.opcao-links .anuncios {
+    background-color: #171717;
+
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.anuncios iframe {
+    width: 90%;
+    height: 50%;
+}
+
+
+
+/* content-links */
+.content-links {
+    box-shadow: 1px 1px 1rem black;
+    border-radius: 5px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.sobre {
+    width: 90%;
+
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 1rem;
+
+
+
+
+}
+
+.sobre h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.sobre p {
+    color: white;
+    font-size: 2.4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* linha-sobre */
+.linha-sobre {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: 1px solid #7fff00;
+}
+
+/* sobre-icon */
+.sobre-icon {
+    width: 100%;
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+
+}
+
+.sobre-icon img {
+    width: 3.5vw;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+
+/* unidades */
+.unidades {
+    width:100%; 
+    height: 40%;
+    overflow-x: scroll;
+    position: relative;
+
+
+}
+
+.unidades h1 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+
+
+
+
+}
+
+.unidades .cards {
+    display: flex;
+    width: 140%;
+    height: 90%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.4rem;
+
+}
+
+.unidades .card {
+
+    width: 70%;
+    background-color: #000;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    transition: 1s;
+
+
+}
+
+.unidades .card:hover {
+    box-shadow: 1px 1px 1rem white;
+}
+
+.unidades .card p {
+   
+    display: none;
+
+}
+.unidades .card div{
+ 
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unidades .card button {
+    width: 100%;
+    margin-top: 2vh;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.7vw;
+    font-weight: bolder;
+    background-color: #7fff00;
+    color: #171717;
+    transition: 0.4s ease-in-out;
+}
+
+.unidades .cards button:hover {
+    box-shadow: 1px 1px 1rem #7fff00;
+    color: #000;
+}
+
+.unidades .card img {
+    width:100%;
+    height: 80%;
+    
+
+
+}
+
+/* clubeVantagem */
+
+.clubeVantagem {
+
+    width: 90%;
+    height: 30%;
+}
+
+.clubeVantagem h1 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.clubeVantagem div {
+
+    height: 90%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.clubeVantagem div p {
+    font-size:2vw;
+    color: white;
+
+
+}
+
+.clubeVantagem div img {
+    width: 40vw;
+    mix-blend-mode: lighten;
+}
+
+
+
+
+/* experimente */
+
+.experimente {
+    width: 90%;
+    height: 30%;
+}
+
+.experimente h1 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.experimente h2 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5vw;
+    color: #fcf803;
+    margin-top: 1vh;
+
+}
+
+.experimente p {
+    color: white;
+    font-size:2vw;
+   
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
+
+.button-experimente {
+
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: space-around;
+
+
+
+}
+
+.button-experimente button {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+    width: 12vw;
+    height: 10vh;
+    gap: 0.5rem;
+    font-size: 1.3vw;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    transition: 0.6s ease-in-out;
+    font-weight: bolder;
+}
+
+.button-experimente button:hover {
+    box-shadow: 1px 1px 1rem white;
+    background-color: #fcf803;
+    color: #000;
+}  
+}
+
+  /* section-3  midia scremm 670px*/
+  @media screen and (max-width:670px) {
+  
+    
+
+    .section-3 {
+        width: 100vw;
+        height: 300vh;
+        background-color: #171717;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content-1 {
+        width: 90%;
+        /* height: 150vh; */
+        height: 290vh;
+    
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    /* .opcao-links */
+    .opcao-links {
+    
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+    
+    
+    }
+    
+    .opcao-links div {
+        display: flex;
+    
+        
+        flex-direction: column;
+        width: 100%;
+        height: 24%;
+        gap: 1.2vh;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+       
+    
+    }
+    
+    .opcao-links div a {
+        color: #000;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 1.9vw;
+    }
+    
+    .opcao-links div a:hover {
+        color: aqua;
+    
+        background: #171717;
+    
+    }
+    
+    /* modalidades */
+    .modalidades {
+        background-color: #171717;
+        box-shadow: 1px 1px 1rem black;
+        position: relative;
+    }
+    
+    .opcao-links .modalidades a {
+        color: white;
+    }
+    
+    .opcao-links .modalidades a:hover {
+        color: #171717;
+        background-color: aqua;
+    }
+    
+    .modalidades button {
+        background-color: #7fff00;
+        border: none;
+        position: absolute;
+        margin-left: -7.3vw;
+        height: 100vh;
+        width: 2vw;
+        cursor: pointer;
+    
+    
+    }
+    
+    /* video-academia */
+    
+    .video-academia {
+        border: 1px solid white;
+        position: absolute;
+        width: 90vw;
+        height: 80vh;
+        z-index: 1;
+        margin-top: -73vh;
+        background-color: #171717f3;
+        border-radius: 5px;
+        margin-left: -1vw;
+        display: none;
+        animation-name: slide-from-left;
+        animation-duration: 0.5s;
+    
+    
+    
+    }
+    
+    .video-academia button {
+        width: 10vw;
+        height: 5vh;
+        font-weight: bolder;
+        border: none;
+        background-color: red;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.5s;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .video-academia button:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    @keyframes slide-from-left {
+        from {
+            transform: translateY(100%);
+        }
+    
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* anuncios */
+    .opcao-links .anuncios {
+        background-color: #171717;
+    
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .anuncios iframe {
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    
+    /* content-links */
+    .content-links {
+        box-shadow: 1px 1px 1rem black;
+        border-radius: 5px;
+        width: 75%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    
+        flex-direction: column;
+    
+    }
+    
+    .sobre {
+        width: 90%;
+    
+        height: 30%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 1vh;
+        padding: 1rem;
+    
+    
+    
+    
+    }
+    
+    .sobre h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .sobre p {
+        color: white;
+        font-size: 2.4vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* linha-sobre */
+    .linha-sobre {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border: 1px solid #7fff00;
+    }
+    
+    /* sobre-icon */
+    .sobre-icon {
+        width: 100%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    
+    }
+    
+    .sobre-icon img {
+        width: 3.5vw;
+        margin-top: 1vh;
+        cursor: pointer;
+    }
+    
+    
+    /* unidades */
+    .unidades {
+        width:100%; 
+        height: 40%;
+        overflow-x: scroll;
+        position: relative;
+    
+    
+    }
+    
+    .unidades h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    
+    
+    
+    
+    }
+    
+    .unidades .cards {
+        display: flex;
+        width: 140%;
+        height: 90%;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0.4rem;
+    
+    }
+    
+    .unidades .card {
+    
+        width: 70%;
+        background-color: #000;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        transition: 1s;
+    
+    
+    }
+    
+    .unidades .card:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    .unidades .card p {
+       
+        display: none;
+    
+    }
+    .unidades .card div{
+     
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .unidades .card button {
+        width: 100%;
+        margin-top: 2vh;
+        padding: 0.3rem;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 1.7vw;
+        font-weight: bolder;
+        background-color: #7fff00;
+        color: #171717;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .unidades .cards button:hover {
+        box-shadow: 1px 1px 1rem #7fff00;
+        color: #000;
+    }
+    
+    .unidades .card img {
+        width:100%;
+        height: 80%;
+        
+    
+    
+    }
+    
+    /* clubeVantagem */
+    
+    .clubeVantagem {
+    
+        width: 90%;
+        height: 30%;
+    }
+    
+    .clubeVantagem h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .clubeVantagem div {
+    
+        height: 90%;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .clubeVantagem div p {
+        font-size:2vw;
+        color: white;
+    
+    
+    }
+    
+    .clubeVantagem div img {
+        width: 40vw;
+        mix-blend-mode: lighten;
+    }
+    
+    
+    
+    
+    /* experimente */
+    
+    .experimente {
+        width: 90%;
+        height: 30%;
+    }
+    
+    .experimente h1 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .experimente h2 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5vw;
+        color: #fcf803;
+        margin-top: 1vh;
+    
+    }
+    
+    .experimente p {
+        color: white;
+        font-size:2vw;
+       
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+    .button-experimente {
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .button-experimente button {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: none;
+        width: 12vw;
+        height: 10vh;
+        gap: 0.5rem;
+        font-size: 1.3vw;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: 0.6s ease-in-out;
+        font-weight: bolder;
+    }
+    
+    .button-experimente button:hover {
+        box-shadow: 1px 1px 1rem white;
+        background-color: #fcf803;
+        color: #000;
+    }  
+    }
+
+    /* section-3  midia scremm 760px*/
+  @media screen and (max-width:670px) {
+  
+    
+
+    .section-3 {
+        width: 100vw;
+        height: 300vh;
+        background-color: #171717;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content-1 {
+        width: 90%;
+        /* height: 150vh; */
+        height: 290vh;
+    
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    /* .opcao-links */
+    .opcao-links {
+    
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+    
+    
+    }
+    
+    .opcao-links div {
+        display: flex;
+    
+        
+        flex-direction: column;
+        width: 100%;
+        height: 24%;
+        gap: 1.2vh;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+       
+    
+    }
+    
+    .opcao-links div a {
+        color: #000;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 1.9vw;
+    }
+    
+    .opcao-links div a:hover {
+        color: aqua;
+    
+        background: #171717;
+    
+    }
+    
+    /* modalidades */
+    .modalidades {
+        background-color: #171717;
+        box-shadow: 1px 1px 1rem black;
+        position: relative;
+    }
+    
+    .opcao-links .modalidades a {
+        color: white;
+    }
+    
+    .opcao-links .modalidades a:hover {
+        color: #171717;
+        background-color: aqua;
+    }
+    
+    .modalidades button {
+        background-color: #7fff00;
+        border: none;
+        position: absolute;
+        margin-left: -7.3vw;
+        height: 100vh;
+        width: 2vw;
+        cursor: pointer;
+    
+    
+    }
+    
+    /* video-academia */
+    
+    .video-academia {
+        border: 1px solid white;
+        position: absolute;
+        width: 90vw;
+        height: 80vh;
+        z-index: 1;
+        margin-top: -73vh;
+        background-color: #171717f3;
+        border-radius: 5px;
+        margin-left: -1vw;
+        display: none;
+        animation-name: slide-from-left;
+        animation-duration: 0.5s;
+    
+    
+    
+    }
+    
+    .video-academia button {
+        width: 10vw;
+        height: 5vh;
+        font-weight: bolder;
+        border: none;
+        background-color: red;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.5s;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .video-academia button:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    @keyframes slide-from-left {
+        from {
+            transform: translateY(100%);
+        }
+    
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* anuncios */
+    .opcao-links .anuncios {
+        background-color: #171717;
+    
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .anuncios iframe {
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    
+    /* content-links */
+    .content-links {
+        box-shadow: 1px 1px 1rem black;
+        border-radius: 5px;
+        width: 75%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    
+        flex-direction: column;
+    
+    }
+    
+    .sobre {
+        width: 90%;
+    
+        height: 30%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 1vh;
+        padding: 1rem;
+    
+    
+    
+    
+    }
+    
+    .sobre h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .sobre p {
+        color: white;
+        font-size: 2.4vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* linha-sobre */
+    .linha-sobre {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border: 1px solid #7fff00;
+    }
+    
+    /* sobre-icon */
+    .sobre-icon {
+        width: 100%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    
+    }
+    
+    .sobre-icon img {
+        width: 3.5vw;
+        margin-top: 1vh;
+        cursor: pointer;
+    }
+    
+    
+    /* unidades */
+    .unidades {
+        width:100%; 
+        height: 40%;
+        overflow-x: scroll;
+        position: relative;
+    
+    
+    }
+    
+    .unidades h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    
+    
+    
+    
+    }
+    
+    .unidades .cards {
+        display: flex;
+        width: 140%;
+        height: 90%;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0.4rem;
+    
+    }
+    
+    .unidades .card {
+    
+        width: 70%;
+        background-color: #000;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        transition: 1s;
+    
+    
+    }
+    
+    .unidades .card:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    .unidades .card p {
+       
+        display: none;
+    
+    }
+    .unidades .card div{
+     
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .unidades .card button {
+        width: 100%;
+        margin-top: 2vh;
+        padding: 0.3rem;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 1.7vw;
+        font-weight: bolder;
+        background-color: #7fff00;
+        color: #171717;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .unidades .cards button:hover {
+        box-shadow: 1px 1px 1rem #7fff00;
+        color: #000;
+    }
+    
+    .unidades .card img {
+        width:100%;
+        height: 80%;
+        
+    
+    
+    }
+    
+    /* clubeVantagem */
+    
+    .clubeVantagem {
+    
+        width: 90%;
+        height: 30%;
+    }
+    
+    .clubeVantagem h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .clubeVantagem div {
+    
+        height: 90%;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .clubeVantagem div p {
+        font-size:2vw;
+        color: white;
+    
+    
+    }
+    
+    .clubeVantagem div img {
+        width: 40vw;
+        mix-blend-mode: lighten;
+    }
+    
+    
+    
+    
+    /* experimente */
+    
+    .experimente {
+        width: 90%;
+        height: 30%;
+    }
+    
+    .experimente h1 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .experimente h2 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5vw;
+        color: #fcf803;
+        margin-top: 1vh;
+    
+    }
+    
+    .experimente p {
+        color: white;
+        font-size:2vw;
+       
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+    .button-experimente {
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .button-experimente button {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: none;
+        width: 12vw;
+        height: 10vh;
+        gap: 0.5rem;
+        font-size: 1.3vw;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: 0.6s ease-in-out;
+        font-weight: bolder;
+    }
+    
+    .button-experimente button:hover {
+        box-shadow: 1px 1px 1rem white;
+        background-color: #fcf803;
+        color: #000;
+    }  
+    }
+    /* section-3  midia scremm 590px*/
+  @media screen and (max-width:590px) {
+  
+    
+
+    .section-3 {
+        width: 100vw;
+        height: 300vh;
+        background-color: #171717;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content-1 {
+        width: 90%;
+        
+        height: 290vh;
+    
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    /* .opcao-links */
+    .opcao-links {
+    
+        display: none;
+
+    }
+    
+    .opcao-links div {
+        display: flex;
+    
+        
+        flex-direction: column;
+        width: 100%;
+        height: 24%;
+        gap: 1.2vh;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+       
+    
+    }
+    
+    .opcao-links div a {
+        color: #000;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 1.9vw;
+    }
+    
+    .opcao-links div a:hover {
+        color: aqua;
+    
+        background: #171717;
+    
+    }
+    
+    /* modalidades */
+    .modalidades {
+        background-color: #171717;
+        box-shadow: 1px 1px 1rem black;
+        position: relative;
+    }
+    
+    .opcao-links .modalidades a {
+        color: white;
+    }
+    
+    .opcao-links .modalidades a:hover {
+        color: #171717;
+        background-color: aqua;
+    }
+    
+    .modalidades button {
+        background-color: #7fff00;
+        border: none;
+        position: absolute;
+        margin-left: -7.3vw;
+        height: 100vh;
+        width: 2vw;
+        cursor: pointer;
+    
+    
+    }
+    
+    /* video-academia */
+    
+    .video-academia {
+        border: 1px solid white;
+        position: absolute;
+        width: 90vw;
+        height: 80vh;
+        z-index: 1;
+        margin-top: -73vh;
+        background-color: #171717f3;
+        border-radius: 5px;
+        margin-left: -1vw;
+        display: none;
+        animation-name: slide-from-left;
+        animation-duration: 0.5s;
+    
+    
+    
+    }
+    
+    .video-academia button {
+        width: 10vw;
+        height: 5vh;
+        font-weight: bolder;
+        border: none;
+        background-color: red;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.5s;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .video-academia button:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    @keyframes slide-from-left {
+        from {
+            transform: translateY(100%);
+        }
+    
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* anuncios */
+    .opcao-links .anuncios {
+        background-color: #171717;
+    
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .anuncios iframe {
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    
+    /* content-links */
+    .content-links {
+        
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      border: 1px solid rgb(255, 255, 255);
+        flex-direction: column;
+    
+    }
+    
+    .sobre {
+        width: 90%;
+    
+        height: 35%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 1vh;
+        padding: 1rem;
+    
+    
+    
+    
+    }
+    
+    .sobre h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .sobre p {
+        color: white;
+        font-size: 2.5vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* linha-sobre */
+    .linha-sobre {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border: 1px solid #7fff00;
+    }
+    
+    /* sobre-icon */
+    .sobre-icon {
+        width: 100%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    
+    }
+    
+    .sobre-icon img {
+        width:5vw;
+        cursor: pointer;
+    }
+    
+    
+    /* unidades */
+    .unidades {
+        width:100%; 
+        height: 40%;
+        overflow-x: scroll;
+        position: relative;
+    
+    
+    }
+    
+    .unidades h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    
+    
+    
+    
+    }
+    
+    .unidades .cards {
+        display: flex;
+        width: 140%;
+        height: 90%;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0.4rem;
+    
+    }
+    
+    .unidades .card {
+    
+        width: 70%;
+        background-color: #000;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        transition: 1s;
+    
+    
+    }
+    
+    .unidades .card:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    .unidades .card p {
+       
+        display: none;
+    
+    }
+    .unidades .card div{
+     
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .unidades .card button {
+        width: 100%;
+        margin-top: 2vh;
+        padding: 0.3rem;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 1.7vw;
+        font-weight: bolder;
+        background-color: #7fff00;
+        color: #171717;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .unidades .cards button:hover {
+        box-shadow: 1px 1px 1rem #7fff00;
+        color: #000;
+    }
+    
+    .unidades .card img {
+        width:100%;
+        height: 80%;
+        
+    
+    
+    }
+    
+    /* clubeVantagem */
+    
+    .clubeVantagem {
+    
+        width: 90%;
+        height: 30%;
+    }
+    
+    .clubeVantagem h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .clubeVantagem div {
+    
+        height: 90%;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .clubeVantagem div p {
+        font-size:2vw;
+        color: white;
+    
+    
+    }
+    
+    .clubeVantagem div img {
+        width: 40vw;
+        mix-blend-mode: lighten;
+    }
+    
+    
+    
+    
+    /* experimente */
+    
+    .experimente {
+        width: 90%;
+        height: 30%;
+    }
+    
+    .experimente h1 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .experimente h2 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 4vw;
+        color: #fcf803;
+        margin-top: 1vh;
+    
+    }
+    
+    .experimente p {
+        color: white;
+        font-size:3vw;
+       
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+    .button-experimente {
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .button-experimente button {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: none;
+        width: 15vw;
+        height: 10vh;
+        gap: 0.5rem;
+        font-size: 2vw;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: 0.6s ease-in-out;
+        font-weight: bolder;
+    }
+    
+    .button-experimente button:hover {
+        box-shadow: 1px 1px 1rem white;
+        background-color: #fcf803;
+        color: #000;
+    }  
+    }
+
+    /* section-3  midia scremm 500px*/
+  @media screen and (max-width:500px) {
+  
+    
+
+    .section-3 {
+        width: 100vw;
+        height: 300vh;
+        background-color: #171717;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content-1 {
+        width: 90%;
+        
+        height: 290vh;
+    
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    /* .opcao-links */
+    .opcao-links {
+    
+        display: none;
+
+    }
+    
+    .opcao-links div {
+        display: flex;
+    
+        
+        flex-direction: column;
+        width: 100%;
+        height: 24%;
+        gap: 1.2vh;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+       
+    
+    }
+    
+    .opcao-links div a {
+        color: #000;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 1.9vw;
+    }
+    
+    .opcao-links div a:hover {
+        color: aqua;
+    
+        background: #171717;
+    
+    }
+    
+    /* modalidades */
+    .modalidades {
+        background-color: #171717;
+        box-shadow: 1px 1px 1rem black;
+        position: relative;
+    }
+    
+    .opcao-links .modalidades a {
+        color: white;
+    }
+    
+    .opcao-links .modalidades a:hover {
+        color: #171717;
+        background-color: aqua;
+    }
+    
+    .modalidades button {
+        background-color: #7fff00;
+        border: none;
+        position: absolute;
+        margin-left: -7.3vw;
+        height: 100vh;
+        width: 2vw;
+        cursor: pointer;
+    
+    
+    }
+    
+    /* video-academia */
+    
+    .video-academia {
+        border: 1px solid white;
+        position: absolute;
+        width: 90vw;
+        height: 80vh;
+        z-index: 1;
+        margin-top: -73vh;
+        background-color: #171717f3;
+        border-radius: 5px;
+        margin-left: -1vw;
+        display: none;
+        animation-name: slide-from-left;
+        animation-duration: 0.5s;
+    
+    
+    
+    }
+    
+    .video-academia button {
+        width: 10vw;
+        height: 5vh;
+        font-weight: bolder;
+        border: none;
+        background-color: red;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.5s;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .video-academia button:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    @keyframes slide-from-left {
+        from {
+            transform: translateY(100%);
+        }
+    
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* anuncios */
+    .opcao-links .anuncios {
+        background-color: #171717;
+    
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .anuncios iframe {
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    
+    /* content-links */
+    .content-links {
+        
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      border: 1px solid rgb(255, 255, 255);
+        flex-direction: column;
+    
+    }
+    
+    .sobre {
+        width: 90%;
+    
+        height: 35%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 1vh;
+        padding: 1rem;
+    
+    
+    
+    
+    }
+    
+    .sobre h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .sobre p {
+        color: white;
+        font-size: 2.5vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* linha-sobre */
+    .linha-sobre {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border: 1px solid #7fff00;
+    }
+    
+    /* sobre-icon */
+    .sobre-icon {
+        width: 100%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    
+    }
+    
+    .sobre-icon img {
+        width:5vw;
+        cursor: pointer;
+    }
+    
+    
+    /* unidades */
+    .unidades {
+        width:100%; 
+        height: 40%;
+        overflow-x: scroll;
+        position: relative;
+    
+    
+    }
+    
+    .unidades h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    
+    
+    
+    
+    }
+    
+    .unidades .cards {
+        display: flex;
+        width: 140%;
+        height: 90%;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0.4rem;
+    
+    }
+    
+    .unidades .card {
+    
+        width: 70%;
+        background-color: #000;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        transition: 1s;
+    
+    
+    }
+    
+    .unidades .card:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    .unidades .card p {
+       
+        display: none;
+    
+    }
+    .unidades .card div{
+     
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .unidades .card button {
+        width: 100%;
+        margin-top: 2vh;
+        padding: 0.3rem;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 1.7vw;
+        font-weight: bolder;
+        background-color: #7fff00;
+        color: #171717;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .unidades .cards button:hover {
+        box-shadow: 1px 1px 1rem #7fff00;
+        color: #000;
+    }
+    
+    .unidades .card img {
+        width:100%;
+        height: 80%;
+        
+    
+    
+    }
+    
+    /* clubeVantagem */
+    
+    .clubeVantagem {
+    
+        width: 90%;
+        height: 30%;
+    }
+    
+    .clubeVantagem h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .clubeVantagem div {
+    
+        height: 90%;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .clubeVantagem div p {
+        font-size:2vw;
+        color: white;
+    
+    
+    }
+    
+    .clubeVantagem div img {
+        width: 40vw;
+        mix-blend-mode: lighten;
+    }
+    
+    
+    
+    
+    /* experimente */
+    
+    .experimente {
+        width: 90%;
+        height: 30%;
+    }
+    
+    .experimente h1 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .experimente h2 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 4vw;
+        color: #fcf803;
+        margin-top: 1vh;
+    
+    }
+    
+    .experimente p {
+        color: white;
+        font-size:3vw;
+       
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+    .button-experimente {
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .button-experimente button {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: none;
+        width: 15vw;
+        height: 10vh;
+        gap: 0.5rem;
+        font-size: 2vw;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: 0.6s ease-in-out;
+        font-weight: bolder;
+    }
+    
+    .button-experimente button:hover {
+        box-shadow: 1px 1px 1rem white;
+        background-color: #fcf803;
+        color: #000;
+    }  
+    }
+
+    /* section-3  midia scremm 400px*/
+  @media screen and (max-width:400px) {
+  
+    
+
+    .section-3 {
+        width: 100vw;
+        height: 300vh;
+        background-color: #171717;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .content-1 {
+        width: 90%;
+        
+        height: 290vh;
+    
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    /* .opcao-links */
+    .opcao-links {
+    
+        display: none;
+
+    }
+    
+    .opcao-links div {
+        display: flex;
+    
+        
+        flex-direction: column;
+        width: 100%;
+        height: 24%;
+        gap: 1.2vh;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+       
+    
+    }
+    
+    .opcao-links div a {
+        color: #000;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 1.9vw;
+    }
+    
+    .opcao-links div a:hover {
+        color: aqua;
+    
+        background: #171717;
+    
+    }
+   
+    
+    
+  
+
+   
+    .sobre {
+        width: 90%;
+    
+        height: 35%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 1vh;
+        padding: 1rem;
+    
+    
+    
+    
+    }
+    
+    .sobre h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .sobre p {
+        color: white;
+        font-size: 2vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* linha-sobre */
+    .linha-sobre {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border: 1px solid #7fff00;
+    }
+    
+    /* sobre-icon */
+    .sobre-icon {
+        width: 100%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    
+    }
+    
+    .sobre-icon img {
+        width:5vw;
+        cursor: pointer;
+    }
+    
+    
+    /* unidades */
+    .unidades{
+        display: none;
+    }
+    .unidades-device {
+        width:100%; 
+        height: 100%;
+        overflow-y: scroll;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+      
+    
+    
+    }
+    
+    .section-3 h1 {
+        height: 10%;
+       
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    
+    
+    
+    
+    }
+    
+   .card-device {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0.4rem;
+       
+        
+    
+    }
+    
+   .unidades-device .card-device p{
+    
+      color: white;
+      font-size: 3vw;
+    
+    }
+    
+    .unidades-device button{
+        width: 30vw;
+    }
+   
+   
+ 
+    
+    .unidades-device .card-device img {
+        width:100%;
+        
+        
+        
+    
+    
+    }
+    
+    /* clubeVantagem */
+    
+    .clubeVantagem {
+    
+        width: 90%;
+        height: 30%;
+    }
+    
+    .clubeVantagem h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .clubeVantagem div {
+    
+        height: 90%;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .clubeVantagem div p {
+        font-size:3vw;
+        color: white;
+    
+    
+    }
+    
+    .clubeVantagem div img {
+        width: 40vw;
+        mix-blend-mode: lighten;
+    }
+    
+    
+    
+    
+    /* experimente */
+    
+    .experimente {
+        width: 90%;
+        height: 30%;
+    }
+    
+    .experimente h1 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .experimente h2 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 4vw;
+        color: #fcf803;
+        margin-top: 1vh;
+    
+    }
+    
+    .experimente p {
+        color: white;
+        font-size:3vw;
+       
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+    .button-experimente {
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .button-experimente button {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: none;
+        width: 15vw;
+        height: 10vh;
+        gap: 0.5rem;
+        font-size: 2vw;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: 0.6s ease-in-out;
+        font-weight: bolder;
+    }
+    
+    .button-experimente button:hover {
+        box-shadow: 1px 1px 1rem white;
+        background-color: #fcf803;
+        color: #000;
+    }  
+    }
+
+     
