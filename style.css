@@ -79,11 +79,14 @@
 
 /* NAV 2 */
 #nav-2 {
-    border: 1px solid rgb(11, 240, 209);
-    width: 40vw;
+    border: 1px solid #80ff0070;
+    width: 100vw;
     height: 60vh;
     background-color: black;
     display: none;
+    /* margin-top: 0.5vh; */
+    animation-name: slide-from-top ;
+    animation-duration: 0.7s ;
 }
 
 #nav-2 ul {
@@ -125,6 +128,20 @@
     cursor: pointer;
 
 }
+
+@keyframes slide-from-top {
+   from
+   {transform: translateY(-5%);
+   opacity: 0;
+}
+   to
+   {transform: translateY(0);
+opacity: 100%;}
+}
+
+
+
+
 
 /* mdia screm nav 760px */
 @media screen and (max-width:760px) {
@@ -4110,6 +4127,12 @@
     }  
     }
 
+
+    @media screen and (min-width:400px){
+      .section-3  .h1-unidades{
+        display: none;
+      } 
+    }
     /* section-3  midia scremm 500px*/
   @media screen and (max-width:500px) {
   
