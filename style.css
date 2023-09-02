@@ -1886,7 +1886,7 @@ opacity: 100%;}
 
 @keyframes slide-from-left {
     from {
-        transform: translateY(100%);
+        transform: translateY(10%);
     }
 
     to {
@@ -1905,7 +1905,7 @@ opacity: 100%;}
 /* anuncios */
 .opcao-links .anuncios {
     background-color: #171717;
-
+  margin-top: 30vh;
     padding: 0;
     display: flex;
     align-items: center;
