@@ -375,7 +375,7 @@ opacity: 100%;}
     
     }
 }
-/* mdia screm nav 500px */
+/* mdia screm nav  500px */
 @media screen and (max-width:500px) {
     .nav-1 {
         width: 100vw;
@@ -491,7 +491,7 @@ opacity: 100%;}
     
     }
 }
-/* mdia screm nav450px */
+/* mdia screm nav 450px */
 @media screen and (max-width:450px) {
     .nav-1 {
         width: 100vw;
@@ -724,6 +724,129 @@ opacity: 100%;}
     
     }
 }
+
+
+/* mdia screm nav 450px */
+@media screen and (max-width:450px) {
+    .nav-1 {
+        width: 100vw;
+        background-color: black;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+    
+    
+    }
+    
+    .nav-1 ul {
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .nav-1 ul img {
+        width: 6vw;
+        cursor: pointer;
+        /* animation-name: slide-from-left;
+        animation-duration: 4s; */
+    
+    }
+    
+    #iconMenuAberto {
+        display: none;
+    }
+    
+    .nav-1 ul li {
+    
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-1 ul li:hover {
+        border-top: 3px solid #7fff00;
+        transition: 0.1s;
+        color: chartreuse;
+    
+    }
+    
+    .nav-1 ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        /* font-family: 'Rubik Dirt', cursive; */
+    
+    
+    }
+    
+    .nav-1 ul li a:hover {
+    
+        color: chartreuse;
+    }
+    
+    /* NAV 2 */
+    #nav-2 {
+        border: 1px solid #80ff0063;
+        width: 100vw;
+        height: 60vh;
+        background-color: black;
+        display: none;
+    }
+    
+    #nav-2 ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    
+    
+    }
+    
+    .ul-escondido {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    #nav-2 ul li {
+    
+        width: 100%;
+    }
+    
+    #nav-2 ul li:hover {
+        background-color: #7fff00;
+        border-top: none;
+        cursor: pointer;
+    
+    }
+    
+    #nav-2 ul li a {
+        font-size: 5vw;
+    }
+    
+    #nav-2 ul li a:hover {
+        color: #000;
+        cursor: pointer;
+    
+    }
+}
+
+
+
+
+
 
 
 @keyframes slide-from-left {
@@ -1152,7 +1275,144 @@ opacity: 100%;}
         justify-content: center;
     }
     }
-
+/* section-1  MIDIA SCREEM 450PX*/
+@media screen and (max-width:450px) {
+    
+    #section-1 {
+    
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(36, 33, 33);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url("img/bk.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+    }
+    
+    .content {
+    
+        width: 60%;
+        height: 100vh;
+        background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+       
+        
+    }
+    
+    .content-text {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: 50%;
+        margin-bottom: 4vh;
+      
+    }
+    
+    .content h1 {
+        color: #7fff00;
+        font-size: 18vw;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 4vh;
+    }
+    
+    .content h3 {
+        color: white;
+        font-weight: 900;
+        font-size: 6vw;
+        margin-bottom: 4vh;
+        margin-top: -5vh;
+    
+    }
+    
+    .content p {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 100;
+        font-size: 4vw;
+    }
+    
+    
+    .content-button {
+        width: 70%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3vh;
+    }
+    
+    .content-button button {
+        width: 40vw;
+        padding: 0.4rem;
+        border: 2px solid #7fff00;
+        border-radius: 10px 0px 10px 0px;
+        background-color: inherit;
+        color: white;
+        font-size: 4vw;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .content-button button:hover {
+        background-color: #7fff00;
+        color: #000;
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    .content-button p {
+        color: #7fff00;
+    }
+    
+    .content-icon {
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 45%;
+    
+    }
+    
+    .content-icon img {
+        transition: 0.5s ease-in-out;
+        width: 10vw;
+        cursor: pointer;
+    }
+    
+    
+    
+    /* ___________ */
+    .img-bk {
+    
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
 
 
 /* section-2 */
@@ -1622,6 +1882,80 @@ opacity: 100%;}
     }
     .planos video{
         width: 100%;
+       height: 100%;
+    }
+    .planos button{
+       width: 15vw;
+       font-size: 1.4vw;
+       padding: 0.7rem;
+       border-radius: 5px;
+       color: #000;
+       border: none;
+       position: absolute;
+       background-color: #7fff00;
+       font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+    }
+    .planos button:hover{
+        box-shadow: 2px 2px 2rem #7fff00;
+    }
+    .planos .plano-black{
+        background-color: red;
+        color: white;
+    }
+    .planos .plano-black:hover{
+        box-shadow: 1px 1px 2rem red;
+    }
+    }
+
+ /* section-2  MIDIA SCREEM 450PX*/
+ @media screen and (max-width:450px) {
+    
+
+    .section-2 {
+        width: 100vw;
+        height: 165vh;
+        background-image: url("img/Like\ &\ Subscribe.png");
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+ 
+    }
+    
+   
+    /* planos */
+    .planos-opcao{
+        display: flex;
+        width: 95vw;
+        height: 100%;
+        flex-direction: column;
+        justify-content:center;
+       
+       
+       
+    }
+    .planos {
+        
+       
+      
+        
+       
+        
+       
+        
+        
+    }
+    .planos video{
+        width: 70vw;
        height: 100%;
     }
     .planos button{
@@ -2700,6 +3034,486 @@ opacity: 100%;}
 }  
 }
 
+
+/* section-3  midia scremm 760px*/
+  @media screen and (max-width:670px) {
+  
+    
+
+    .section-3 {
+        width: 100vw;
+        height: 300vh;
+        background-color: #171717;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content-1 {
+        width: 90%;
+        /* height: 150vh; */
+        height: 290vh;
+    
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    /* .opcao-links */
+    .opcao-links {
+    
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+        
+    
+    
+    
+    }
+    
+    .opcao-links div {
+        display: flex;
+    
+        
+        flex-direction: column;
+        width: 100%;
+        height: 24%;
+        gap: 1.2vh;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+       
+    
+    }
+    
+    .opcao-links div a {
+        color: #000;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 1.9vw;
+    }
+    
+    .opcao-links div a:hover {
+        color: aqua;
+    
+        background: #171717;
+    
+    }
+    
+    /* modalidades */
+    .modalidades {
+        background-color: #171717;
+        box-shadow: 1px 1px 1rem black;
+        position: relative;
+    }
+    
+    .opcao-links .modalidades a {
+        color: white;
+    }
+    
+    .opcao-links .modalidades a:hover {
+        color: #171717;
+        background-color: aqua;
+    }
+    
+    .modalidades button {
+        background-color: #7fff00;
+        border: none;
+        position: absolute;
+        margin-left: -7.3vw;
+        height: 100vh;
+        width: 2vw;
+        cursor: pointer;
+    
+    
+    }
+    
+    /* video-academia */
+    
+    .video-academia {
+        border: 1px solid white;
+        position: absolute;
+        width: 90vw;
+        height: 80vh;
+        z-index: 1;
+        margin-top: -73vh;
+        background-color: #171717f3;
+        border-radius: 5px;
+        margin-left: -1vw;
+        display: none;
+        animation-name: slide-from-left;
+        animation-duration: 0.5s;
+    
+    
+    
+    }
+    
+    .video-academia button {
+        width: 10vw;
+        height: 5vh;
+        font-weight: bolder;
+        border: none;
+        background-color: red;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.5s;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .video-academia button:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    @keyframes slide-from-left {
+        from {
+            transform: translateY(100%);
+        }
+    
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* anuncios */
+    .opcao-links .anuncios {
+        background-color: #171717;
+    
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .anuncios iframe {
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    
+    /* content-links */
+    .content-links {
+        box-shadow: 1px 1px 1rem black;
+        border-radius: 5px;
+        width: 75%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    
+        flex-direction: column;
+    
+    }
+    
+    .sobre {
+        width: 90%;
+    
+        height: 30%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 1vh;
+        padding: 1rem;
+    
+    
+    
+    
+    }
+    
+    .sobre h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .sobre p {
+        color: white;
+        font-size: 2.4vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* linha-sobre */
+    .linha-sobre {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border: 1px solid #7fff00;
+    }
+    
+    /* sobre-icon */
+    .sobre-icon {
+        width: 100%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    
+    }
+    
+    .sobre-icon img {
+        width: 3.5vw;
+        margin-top: 1vh;
+        cursor: pointer;
+    }
+    
+    
+    /* unidades */
+    .unidades {
+        width:100%; 
+        height: 40%;
+        overflow-x: scroll;
+        position: relative;
+    
+    
+    }
+    
+    .unidades h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    
+    
+    
+    
+    }
+    
+    .unidades .cards {
+        display: flex;
+        width: 140%;
+        height: 90%;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0.4rem;
+    
+    }
+    
+    .unidades .card {
+    
+        width: 70%;
+        background-color: #000;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        transition: 1s;
+    
+    
+    }
+    
+    .unidades .card:hover {
+        box-shadow: 1px 1px 1rem white;
+    }
+    
+    .unidades .card p {
+       
+        display: none;
+    
+    }
+    .unidades .card div{
+     
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .unidades .card button {
+        width: 100%;
+        margin-top: 2vh;
+        padding: 0.3rem;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 1.7vw;
+        font-weight: bolder;
+        background-color: #7fff00;
+        color: #171717;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .unidades .cards button:hover {
+        box-shadow: 1px 1px 1rem #7fff00;
+        color: #000;
+    }
+    
+    .unidades .card img {
+        width:100%;
+        height: 80%;
+        
+    
+    
+    }
+    
+    /* clubeVantagem */
+    
+    .clubeVantagem {
+    
+        width: 90%;
+        height: 30%;
+    }
+    
+    .clubeVantagem h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .clubeVantagem div {
+    
+        height: 90%;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .clubeVantagem div p {
+        font-size:2vw;
+        color: white;
+    
+    
+    }
+    
+    .clubeVantagem div img {
+        width: 40vw;
+        mix-blend-mode: lighten;
+    }
+    
+    
+    
+    
+    /* experimente */
+    
+    .experimente {
+        width: 90%;
+        height: 30%;
+    }
+    
+    .experimente h1 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 2.5vw;
+    }
+    
+    .experimente h2 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5vw;
+        color: #fcf803;
+        margin-top: 1vh;
+    
+    }
+    
+    .experimente p {
+        color: white;
+        font-size:2vw;
+       
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+    .button-experimente {
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .button-experimente button {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: none;
+        width: 12vw;
+        height: 10vh;
+        gap: 0.5rem;
+        font-size: 1.3vw;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: 0.6s ease-in-out;
+        font-weight: bolder;
+    }
+    
+    .button-experimente button:hover {
+        box-shadow: 1px 1px 1rem white;
+        background-color: #fcf803;
+        color: #000;
+    }  
+    }
+
   /* section-3  midia scremm 670px*/
   @media screen and (max-width:670px) {
   
@@ -3179,484 +3993,7 @@ opacity: 100%;}
     }  
     }
 
-    /* section-3  midia scremm 760px*/
-  @media screen and (max-width:670px) {
-  
     
-
-    .section-3 {
-        width: 100vw;
-        height: 300vh;
-        background-color: #171717;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .content-1 {
-        width: 90%;
-        /* height: 150vh; */
-        height: 290vh;
-    
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    
-    }
-    
-    
-    /* .opcao-links */
-    .opcao-links {
-    
-        width: 30%;
-        height: 100%;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        
-        
-    
-    
-    
-    }
-    
-    .opcao-links div {
-        display: flex;
-    
-        
-        flex-direction: column;
-        width: 100%;
-        height: 24%;
-        gap: 1.2vh;
-        font-family: 'Alfa Slab One', cursive;
-        font-family: 'Black Ops One', cursive;
-        font-family: 'Fasthand', cursive;
-        font-family: 'Gasoek One', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-       
-    
-    }
-    
-    .opcao-links div a {
-        color: #000;
-        text-decoration: none;
-        transition: 0.2s;
-        font-size: 1.9vw;
-    }
-    
-    .opcao-links div a:hover {
-        color: aqua;
-    
-        background: #171717;
-    
-    }
-    
-    /* modalidades */
-    .modalidades {
-        background-color: #171717;
-        box-shadow: 1px 1px 1rem black;
-        position: relative;
-    }
-    
-    .opcao-links .modalidades a {
-        color: white;
-    }
-    
-    .opcao-links .modalidades a:hover {
-        color: #171717;
-        background-color: aqua;
-    }
-    
-    .modalidades button {
-        background-color: #7fff00;
-        border: none;
-        position: absolute;
-        margin-left: -7.3vw;
-        height: 100vh;
-        width: 2vw;
-        cursor: pointer;
-    
-    
-    }
-    
-    /* video-academia */
-    
-    .video-academia {
-        border: 1px solid white;
-        position: absolute;
-        width: 90vw;
-        height: 80vh;
-        z-index: 1;
-        margin-top: -73vh;
-        background-color: #171717f3;
-        border-radius: 5px;
-        margin-left: -1vw;
-        display: none;
-        animation-name: slide-from-left;
-        animation-duration: 0.5s;
-    
-    
-    
-    }
-    
-    .video-academia button {
-        width: 10vw;
-        height: 5vh;
-        font-weight: bolder;
-        border: none;
-        background-color: red;
-        cursor: pointer;
-        border-radius: 5px;
-        transition: 0.5s;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    
-    .video-academia button:hover {
-        box-shadow: 1px 1px 1rem white;
-    }
-    
-    @keyframes slide-from-left {
-        from {
-            transform: translateY(100%);
-        }
-    
-        to {
-            transform: translateY(0);
-        }
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /* anuncios */
-    .opcao-links .anuncios {
-        background-color: #171717;
-    
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    
-    }
-    
-    .anuncios iframe {
-        width: 90%;
-        height: 50%;
-    }
-    
-    
-    
-    /* content-links */
-    .content-links {
-        box-shadow: 1px 1px 1rem black;
-        border-radius: 5px;
-        width: 75%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-    
-        flex-direction: column;
-    
-    }
-    
-    .sobre {
-        width: 90%;
-    
-        height: 30%;
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        gap: 1vh;
-        padding: 1rem;
-    
-    
-    
-    
-    }
-    
-    .sobre h1 {
-        font-family: 'Alfa Slab One', cursive;
-        font-family: 'Black Ops One', cursive;
-        font-family: 'Fasthand', cursive;
-        font-family: 'Gasoek One', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-size: 2.5vw;
-    }
-    
-    .sobre p {
-        color: white;
-        font-size: 2.4vh;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    /* linha-sobre */
-    .linha-sobre {
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        border: 1px solid #7fff00;
-    }
-    
-    /* sobre-icon */
-    .sobre-icon {
-        width: 100%;
-        display: flex;
-        gap: 0.7rem;
-        align-items: center;
-    
-    }
-    
-    .sobre-icon img {
-        width: 3.5vw;
-        margin-top: 1vh;
-        cursor: pointer;
-    }
-    
-    
-    /* unidades */
-    .unidades {
-        width:100%; 
-        height: 40%;
-        overflow-x: scroll;
-        position: relative;
-    
-    
-    }
-    
-    .unidades h1 {
-        height: 10%;
-        display: flex;
-        align-items: center;
-        font-family: 'Alfa Slab One', cursive;
-        font-family: 'Black Ops One', cursive;
-        font-family: 'Fasthand', cursive;
-        font-family: 'Gasoek One', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-size: 2.5vw;
-    
-    
-    
-    
-    }
-    
-    .unidades .cards {
-        display: flex;
-        width: 140%;
-        height: 90%;
-        align-items: center;
-        justify-content: space-around;
-        gap: 0.4rem;
-    
-    }
-    
-    .unidades .card {
-    
-        width: 70%;
-        background-color: #000;
-        height: 70%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 5px;
-        transition: 1s;
-    
-    
-    }
-    
-    .unidades .card:hover {
-        box-shadow: 1px 1px 1rem white;
-    }
-    
-    .unidades .card p {
-       
-        display: none;
-    
-    }
-    .unidades .card div{
-     
-        width: 100%;
-        height: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .unidades .card button {
-        width: 100%;
-        margin-top: 2vh;
-        padding: 0.3rem;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-        font-size: 1.7vw;
-        font-weight: bolder;
-        background-color: #7fff00;
-        color: #171717;
-        transition: 0.4s ease-in-out;
-    }
-    
-    .unidades .cards button:hover {
-        box-shadow: 1px 1px 1rem #7fff00;
-        color: #000;
-    }
-    
-    .unidades .card img {
-        width:100%;
-        height: 80%;
-        
-    
-    
-    }
-    
-    /* clubeVantagem */
-    
-    .clubeVantagem {
-    
-        width: 90%;
-        height: 30%;
-    }
-    
-    .clubeVantagem h1 {
-        height: 10%;
-        display: flex;
-        align-items: center;
-        font-family: 'Alfa Slab One', cursive;
-        font-family: 'Black Ops One', cursive;
-        font-family: 'Fasthand', cursive;
-        font-family: 'Gasoek One', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-size: 2.5vw;
-    }
-    
-    .clubeVantagem div {
-    
-        height: 90%;
-        width: 100%;
-        overflow-y: scroll;
-        padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-    
-    .clubeVantagem div p {
-        font-size:2vw;
-        color: white;
-    
-    
-    }
-    
-    .clubeVantagem div img {
-        width: 40vw;
-        mix-blend-mode: lighten;
-    }
-    
-    
-    
-    
-    /* experimente */
-    
-    .experimente {
-        width: 90%;
-        height: 30%;
-    }
-    
-    .experimente h1 {
-        height: 10%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        font-family: 'Alfa Slab One', cursive;
-        font-family: 'Black Ops One', cursive;
-        font-family: 'Fasthand', cursive;
-        font-family: 'Gasoek One', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        font-size: 2.5vw;
-    }
-    
-    .experimente h2 {
-        height: 10%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Alfa Slab One', cursive;
-        font-family: 'Black Ops One', cursive;
-        font-family: 'Fasthand', cursive;
-        font-family: 'Gasoek One', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        font-size: 2.5vw;
-        color: #fcf803;
-        margin-top: 1vh;
-    
-    }
-    
-    .experimente p {
-        color: white;
-        font-size:2vw;
-       
-        height: 10%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 1vh;
-        margin-bottom: 1vh;
-    
-    }
-    
-    .button-experimente {
-    
-        width: 100%;
-        height: 70%;
-        display: flex;
-        align-items: center;
-        gap: 1vw;
-        justify-content: space-around;
-    
-    
-    
-    }
-    
-    .button-experimente button {
-        border-radius: 5px;
-        padding: 0.5rem;
-        border: none;
-        width: 12vw;
-        height: 10vh;
-        gap: 0.5rem;
-        font-size: 1.3vw;
-        cursor: pointer;
-        background-color: #000;
-        color: white;
-        transition: 0.6s ease-in-out;
-        font-weight: bolder;
-    }
-    
-    .button-experimente button:hover {
-        box-shadow: 1px 1px 1rem white;
-        background-color: #fcf803;
-        color: #000;
-    }  
-    }
     /* section-3  midia scremm 590px*/
   @media screen and (max-width:590px) {
   
@@ -4128,6 +4465,7 @@ opacity: 100%;}
     }
 
 
+    
     @media screen and (min-width:400px){
       .section-3  .h1-unidades{
         display: none;
@@ -4602,6 +4940,318 @@ opacity: 100%;}
         color: #000;
     }  
     }
+
+
+
+    
+    /* section-3  midia scremm 450px*/
+  @media screen and (max-width:450px) {
+  
+    
+
+    .section-3 {
+        width: 100vw;
+        height: 300vh;
+        background-color: #171717;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .content-1 {
+        width: 90%;
+        
+        height: 290vh;
+    
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    
+   
+    .sobre {
+        width: 100%;
+    
+        height: 35%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 1vh;
+        
+    
+    
+    
+    
+    }
+    
+    .sobre h1 {
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 5vw;
+    }
+    
+    .sobre p {
+        color: white;
+        font-size: 3.6vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* linha-sobre */
+    .linha-sobre {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        border: 1px solid #7fff00;
+    }
+    
+    /* sobre-icon */
+    .sobre-icon {
+        width: 100%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    
+    }
+    
+    .sobre-icon img {
+        width:7vw;
+        cursor: pointer;
+    }
+    
+    
+    /* unidades */
+    .unidades{
+        display: none;
+    }
+    .unidades-device {
+        width:100%; 
+        height: 100%;
+        overflow-y: scroll;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+      
+    
+    
+    }
+    
+    .section-3 h1 {
+        height: 10%;
+       
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 5vw;
+    
+    
+    
+    
+    }
+    
+   .card-device {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0.4rem;
+       
+        
+    
+    }
+    
+   .unidades-device .card-device p{
+    
+      color: white;
+      font-size: 3.9vw;
+    
+    }
+    
+    .unidades-device button{
+        width: 30vw;
+    }
+   
+   
+ 
+    
+    .unidades-device .card-device img {
+        width:100%;
+        
+        
+        
+    
+    
+    }
+    
+    /* clubeVantagem */
+    
+    .clubeVantagem {
+    
+        width: 90%;
+        height: 30%;
+    }
+    
+    .clubeVantagem h1 {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 5vw;
+    }
+    
+    .clubeVantagem div {
+    
+        height: 90%;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .clubeVantagem div p {
+        font-size: 3.9vw;
+        color: white;
+    
+    
+    }
+    
+    .clubeVantagem div img {
+        width: 40vw;
+        mix-blend-mode: lighten;
+    }
+    
+    
+    
+    
+    /* experimente */
+    
+    .experimente {
+        width: 100%;
+        height: 30%;
+    }
+    
+    .experimente h1 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 5vw;
+    }
+    
+    .experimente h2 {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Fasthand', cursive;
+        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-size: 4vw;
+        color: #fcf803;
+        margin-top: 1vh;
+    
+    }
+    
+    .experimente p {
+        color: white;
+        font-size:4vw;
+       
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+    .button-experimente {
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+       
+        gap: 1vw;
+        justify-content: space-around;
+    
+    
+    
+    }
+    
+    .button-experimente button {
+        border-radius: 5px;
+        padding: 0.5rem;
+        border: none;
+        width: 20vw;
+        height: 8vh;
+        gap: 0.5rem;
+        font-size: 3vw;
+        cursor: pointer;
+        background-color: #000;
+        color: white;
+        transition: 0.6s ease-in-out;
+        font-weight: bolder;
+        margin-bottom: 2vh;
+    }
+    
+    .button-experimente button:hover {
+        box-shadow: 1px 1px 1rem white;
+        background-color: #fcf803;
+        color: #000;
+    }  
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     /* section-3  midia scremm 400px*/
   @media screen and (max-width:400px) {
