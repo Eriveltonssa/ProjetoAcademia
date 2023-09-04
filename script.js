@@ -51,6 +51,29 @@ function fecharMenu(){
 }
 
 
+const body = document.body;
+
+body.addEventListener('click', (event) => {
+  const toggleButton = document.getElementById('menuEscondido');
+  var divMenu = window.document.getElementById(`nav-2`)
+  var mudarIcon = window.document.getElementById(`menuEscondido`)
+  var iconFechado = window.document.getElementById(`iconMenuAberto`)
+ 
+
+
+  // Verifica se o clique ocorreu fora do menu e fora do botão
+  if (!divMenu.contains(event.target) && event.target !== toggleButton) {
+    // Oculta o menu
+    divMenu.style.display = 'none';
+    mudarIcon.style.display = "block"
+    iconFechado.style.display = "none"
+
+    
+
+  }
+});
+
+
 
 // video escondido
 function abrirVideo(){
