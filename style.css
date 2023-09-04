@@ -725,7 +725,6 @@ opacity: 100%;}
     }
 }
 
-
 /* mdia screm nav 450px */
 @media screen and (max-width:450px) {
     .nav-1 {
@@ -761,7 +760,8 @@ opacity: 100%;}
     
     .nav-1 ul li {
     
-        width: 5vw;
+        width: 15vw;
+        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -769,6 +769,10 @@ opacity: 100%;}
     
     .nav-1 ul li:hover {
         border-top: 3px solid #7fff00;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
         transition: 0.1s;
         color: chartreuse;
     
@@ -776,6 +780,9 @@ opacity: 100%;}
     
     .nav-1 ul li a {
         color: white;
+        width: 20vw;
+        font-size: 4.2vw;
+      
         text-decoration: none;
         font-family: 'Alfa Slab One', cursive;
         font-family: 'Black Ops One', cursive;
@@ -796,8 +803,8 @@ opacity: 100%;}
     /* NAV 2 */
     #nav-2 {
         border: 1px solid #80ff0063;
-        width: 100vw;
-        height: 60vh;
+        width: 100%;
+        height: 50vh;
         background-color: black;
         display: none;
     }
@@ -842,12 +849,6 @@ opacity: 100%;}
     
     }
 }
-
-
-
-
-
-
 
 @keyframes slide-from-left {
     from {
@@ -1920,7 +1921,7 @@ opacity: 100%;}
 
     .section-2 {
         width: 100vw;
-        height: 165vh;
+        height: 120vh;
         background-image: url("img/Like\ &\ Subscribe.png");
         background-size: cover;
         background-position: center center;
